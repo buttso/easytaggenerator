@@ -7,7 +7,7 @@ The focus mainly is on using EasyTag to capture game statistics that can then be
 ## Options
 
 | Flag | Required | Description |
-| ---- | ----------- |
+| ---- | ----------- |----------|
 | `-n <value>`  | False |  Name of the panel |
 | `-h <home>`  | False, defaults to Home|Name of home team |  
 | `-o <opponent>`  | False, defaults to Opp|Name of opponent |  
