@@ -17,7 +17,7 @@ The focus mainly is on using EasyTag to capture game statistics that can then be
 
 ## Default Generation
 
-When executed with no parameters a default XML file is generated that produces the EasyTag panel as shown belowL:
+When executed with no parameters a default XML file is generated that produces the EasyTag panel as shown below:
 
 ![alt text](doc/HomevOpp.png "HomevOpp Default")
 
