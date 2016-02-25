@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EasyTagPanel>
+  <name>Simple</name>
+  <height>4</height>
+  <width>2</width>
+  <showStatistics>1</showStatistics>
+  <pushers>
+    <pusher index="0">
+      <x>0</x>
+      <y>0</y>
+      <label>Shot</label>
+      <value>Shot AHC</value>
+      <category>Shot AHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="2">
+      <x>0</x>
+      <y>1</y>
+      <label>Miss</label>
+      <value>Miss AHC</value>
+      <category>Miss AHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="4">
+      <x>0</x>
+      <y>2</y>
+      <label>Save</label>
+      <value>Save AHC</value>
+      <category>Save AHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="6">
+      <x>0</x>
+      <y>3</y>
+      <label>Score</label>
+      <value>Score AHC</value>
+      <category>Score AHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="1">
+      <x>1</x>
+      <y>0</y>
+      <label>Shot</label>
+      <value>Shot NEHC</value>
+      <category>Shot NEHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF0000</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="3">
+      <x>1</x>
+      <y>1</y>
+      <label>Miss</label>
+      <value>Miss NEHC</value>
+      <category>Miss NEHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF0000</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="5">
+      <x>1</x>
+      <y>2</y>
+      <label>Save</label>
+      <value>Save NEHC</value>
+      <category>Save NEHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF0000</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="7">
+      <x>1</x>
+      <y>3</y>
+      <label>Score</label>
+      <value>Score NEHC</value>
+      <category>Score NEHC</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF0000</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+  </pushers>
+</EasyTagPanel>

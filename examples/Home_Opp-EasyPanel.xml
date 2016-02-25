@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EasyTagPanel>
+  <name>Home v Opp</name>
+  <height>6</height>
+  <width>2</width>
+  <showStatistics>1</showStatistics>
+  <pushers>
+    <pusher index="0">
+      <x>0</x>
+      <y>0</y>
+      <label>A25</label>
+      <value>A25 Home</value>
+      <category>A25 Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="2">
+      <x>0</x>
+      <y>1</y>
+      <label>AC</label>
+      <value>AC Home</value>
+      <category>AC Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="4">
+      <x>0</x>
+      <y>2</y>
+      <label>Shot on T</label>
+      <value>Shot on T Home</value>
+      <category>Shot on T Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="6">
+      <x>0</x>
+      <y>3</y>
+      <label>Shot Miss T</label>
+      <value>Shot Miss T Home</value>
+      <category>Shot Miss T Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="8">
+      <x>0</x>
+      <y>4</y>
+      <label>PC</label>
+      <value>PC Home</value>
+      <category>PC Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="10">
+      <x>0</x>
+      <y>5</y>
+      <label>Goal</label>
+      <value>Goal Home</value>
+      <category>Goal Home</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>0080FF</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="1">
+      <x>1</x>
+      <y>0</y>
+      <label>A25</label>
+      <value>A25 Opp</value>
+      <category>A25 Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="3">
+      <x>1</x>
+      <y>1</y>
+      <label>AC</label>
+      <value>AC Opp</value>
+      <category>AC Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="5">
+      <x>1</x>
+      <y>2</y>
+      <label>Shot on T</label>
+      <value>Shot on T Opp</value>
+      <category>Shot on T Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="7">
+      <x>1</x>
+      <y>3</y>
+      <label>Shot Miss T</label>
+      <value>Shot Miss T Opp</value>
+      <category>Shot Miss T Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="9">
+      <x>1</x>
+      <y>4</y>
+      <label>PC</label>
+      <value>PC Opp</value>
+      <category>PC Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+    <pusher index="11">
+      <x>1</x>
+      <y>5</y>
+      <label>Goal</label>
+      <value>Goal Opp</value>
+      <category>Goal Opp</category>
+      <visible>1</visible>
+      <showHits>1</showHits>
+      <color>FF3300</color>
+      <duration>0</duration>
+      <preroll>0</preroll>
+    </pusher>
+  </pushers>
+</EasyTagPanel>
