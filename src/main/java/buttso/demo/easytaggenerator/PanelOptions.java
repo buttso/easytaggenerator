@@ -27,7 +27,7 @@ public class PanelOptions {
     boolean help = false;
 
     @Parameter(names = {"-s", "-stats"}, required = false, description = "List of stats to create in panel", variableArity = true)
-    List<String> stats = Arrays.asList("A25", "AC", "Shot on T", "Shot Miss T", "PC", "Goal");
+    List<String> stats = Arrays.asList("A25", "AC", "Shot", "PC", "Goal");
 
     @Parameter(names = {"-n", "--name"}, required = false)
     String name = "";

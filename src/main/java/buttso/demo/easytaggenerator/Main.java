@@ -90,15 +90,24 @@ public class Main {
         sw.write(indent(1, "<pushers>"));
         for (int x = 0; x < 2; x++) {
             for (int y = 0; y < options.stats.size(); y++) {
-                String LABEL = String.format("%s %s", options.stats.get(y), x % 2 == 0 ? options.home : options.opponent);
+                //String LABEL = String.format("%s %s", options.stats.get(y), x % 2 == 0 ? options.home : options.opponent);
+                String LABEL = String.format("%s %s", x % 2 == 0 ? options.home : options.opponent, options.stats.get(y));
                 sw.append(indent(2, String.format("<pusher index=\"%s\">", x == 0 ? y * 2 : y * 2 + 1)));
                 sw.append(elementValue(3, "x", String.valueOf(x)));
                 sw.append(elementValue(3, "y", String.valueOf(y)));
                 sw.append(elementValue(3, "label", options.stats.get(y)));
                 //sw.append(elementValue(3, "value", String.format("[%s] %s", x % 2 == 0 ? options.home : options.opponent, options.stats.get(y))));
                 //sw.append(elementValue(3, "category", String.format("%s %s", options.stats.get(y), x % 2 == 0 ? options.home : options.opponent)));
+                // VALUE/CATEGORY = "Stat Team"
                 sw.append(elementValue(3, "value", LABEL));
                 sw.append(elementValue(3, "category", LABEL));
+                // Value=team, Category=state
+//                sw.append(elementValue(3, "value", String.format("%s", x % 2 == 0 ? options.home : options.opponent)));
+//                sw.append(elementValue(3, "category", String.format("%s", options.stats.get(y))));
+
+                // Category = Team, Value = Stat
+//                sw.append(elementValue(3, "value", options.stats.get(y)));
+//                  sw.append(elementValue(3, "category", String.format("%s", x % 2 == 0 ? options.home : options.opponent)));
 
                 sw.append(elementValue(3, "visible", "1"));
                 sw.append(elementValue(3, "showHits", "1"));
@@ -153,10 +162,9 @@ public class Main {
         }
     }
 
-
 //
 //
-private void generate_via_dom(PanelOptions options) {
+    private void generate_via_dom(PanelOptions options) {
         try {
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
